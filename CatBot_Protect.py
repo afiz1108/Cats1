@@ -7,31 +7,31 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,ast,os,subprocess,requests
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token='EnX74epRMp3Drtdbs4Mc.VO404wWDgdw0n0T3WkC0+a.AI/gidvjsdelp7QEu/9RZNQvVeqyoiBBl0TsQvqOwGY=')
 #cl.login(token='')
 cl.loginResult()
 print "Cl-Login Success\n"
 
 ki = LINETCR.LINE()
-ki.login(qr=True)
+ki.login(token='En8I5rHNAp7gup1g6v41.7S41YiepIyUbpnsN+5O2eq.+aeRMbyGkw7tc8CLPcUdj/MrYf9l1xMTQ8PydHMWnII=')
 #ki.login(token='')
 ki.loginResult()
 print "Ki-Login Success\n"
 
 kk = LINETCR.LINE()
-kk.login(qr=True)
+kk.login(token='En4bes9sKSpP05U6vEF9.J/eMhQwd2iuTfxuz19zSsq.rwJk4qaX+S+2q/ZnGc6qVwdLZfc6WHtOeZUim5LXopw=')
 #kk.login(token='')
 kk.loginResult()
 print "Kk-Login Success\n"
 
 kc = LINETCR.LINE()
-kc.login(qr=True)
+kc.login(token='EnZGHZU2FvLdPedDGkc5.vn6uYjWWW0JudBqT33gfDq.DON3mc3cs7i/zGZnO9OeXWOzsW4sGSUJVA45GirOdj4=')
 #kc.login(token='')
 kc.loginResult()
 print "Kc-Login Success\n"
 
 kr = LINETCR.LINE()
-kr.login(qr=True)
+kr.login(token='EnWk0KvgfwbS1mMTS79b.bqOFJnJxN4T4QjA6tymdIW.cykCgdX2oWPzO+r35Sl3gvg1NwgR+VouTqnqjJLteps=')
 #kr.login(token='')
 kr.loginResult()
 print "Kr-Login Success\n\n=====[Sukses All Login]====="
@@ -90,8 +90,8 @@ Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 Bots=[mid,Amid,Bmid,Cmid]
-Creator="ud8c4d53f17999c8e029827b67af3b06a"
-admin=["Your MID here!"]
+Creator="u29b7d9118645af64909adba01fe4cb26"
+admin=["u29b7d9118645af64909adba01fe4cb26"]
 
 wait = {
     "LeaveRoom":True,
